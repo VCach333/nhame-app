@@ -1,12 +1,13 @@
 {
-  "name": "model",
+  "name": "nhame-nhame",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "api": "json-server --watch api/api.json --port 5002"
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^7.15.9",
@@ -24,5 +25,25 @@
     "react-native-screens": "~4.16.0",
     "react-native-vector-icons": "^10.3.0"
   },
-  "private": true
+  "private": true,
+  "description": "An APP to save and manage your foods",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VCach333/nhame-app.git"
+  },
+  "keywords": [
+    "APP",
+    "foods",
+    "management"
+  ],
+  "author": "VCach333",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VCach333/nhame-app/issues"
+  },
+  "homepage": "https://github.com/VCach333/nhame-app#readme"
 }
