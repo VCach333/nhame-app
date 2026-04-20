@@ -5,7 +5,7 @@ import {View, Text} from 'react-native'
 import styles from './style.module'
 
 /* icon import */
-import { MaterialCommunityIcons, Feather } from '@expo/vector-icons'
+import { MaterialCommunityIcons } from '@expo/vector-icons'
 
 export default function Header() {
 
@@ -17,7 +17,7 @@ export default function Header() {
             </View>
 
             <View style={styles.iconMask}>
-                <MaterialCommunityIcons name='account-outline' size={24} color='#fff' />
+                <MaterialCommunityIcons name='account-outline' size={24} color='#6d64ff' />
             </View>
 
         </View>

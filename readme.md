@@ -22,16 +22,16 @@
 ### Downlaod and Run the Project
 
 1. *run `git clone https://github.com/VCach333/nhame-app.git`*
-  1. *it will download a compressed folder (like .zip)*
-  1. *extract the compressed folder*
+  - *it will download a compressed folder (like .zip)*
+  - *extract the compressed folder*
 1. *on your computer open the terminal and navigate to folder extrated*
 1. *run `npm install` and `npx expo install`*
-  1. *if it require any tool accept*
+  - *if it require any tool accept*
 1. *run `npx expo start`*
-  1. *if it require any tool accept*
+  - *if it require any tool accept*
 1. *Using Expo APP*
-  1. *scan the QRCode showed on terminal with your smartphone*
-  1. *or type the IP address with the PORT (eg.: 192.168.10.10:8080)*
+  - *scan the QRCode showed on terminal with your smartphone*
+  - *or type the IP address with the PORT (eg.: 192.168.10.10:8080)*
 
 
 ### Downloading for your Android Device

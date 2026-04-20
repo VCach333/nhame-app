@@ -15,7 +15,7 @@ export default function BottomNavigationItem({ navigation, route, label, icon })
             <TouchableOpacity onPress={() => navigation.navigate(route)}>
 
                 <View style={styles.bottomNavigationItemIcon}>
-                    <MaterialCommunityIcons name={icon} size={24} color='#333' />
+                    <MaterialCommunityIcons name={icon} size={24} color='#fff' />
                 </View>
 
                 <Text style={styles.bottomNavigationItemLabel}>{label}</Text>

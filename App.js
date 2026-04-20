@@ -8,13 +8,12 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import styles from './App.module'
 
 /* pages import */
-import InicioPage from './src/pages/InicioPage'
-import PratosPage from './src/pages/PratosPage'
-import AjustesPage from './src/pages/AjustesPage'
+import HomePage from './src/pages/HomePage'
+import DishPage from './src/pages/DishPage'
+import SettingPage from './src/pages/SettingPage'
 
 /* components import */
 import BottomNavigation from './src/components/BottomNavigation'
-import Header from './src/components/Header'
 
 const Stack = createNativeStackNavigator()
 
@@ -26,20 +25,18 @@ export default function App() {
 
         <View style={styles.appMain}>
 
-          <Header />
-
           <Stack.Navigator screenOptions={{ headerShown: false }}>
 
-            <Stack.Screen name='inicio' component={InicioPage} />
-            <Stack.Screen name='pratos' component={PratosPage} />
-            <Stack.Screen name='config' component={AjustesPage} />
+            <Stack.Screen name='inicio' component={HomePage} />
+            <Stack.Screen name='pratos' component={DishPage} />
+            <Stack.Screen name='config' component={SettingPage} />
 
           </Stack.Navigator>
         </View>
 
         <BottomNavigation style={styles.appBottomNavigation} />
 
-        <StatusBar style="auto" backgroundColor='#ffff00' />
+        <StatusBar style="dark" backgroundColor='#6d64ff' />
 
       </View>
 
