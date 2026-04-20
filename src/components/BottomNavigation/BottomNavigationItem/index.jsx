@@ -1,5 +1,5 @@
 /* hooks & utils import */
-import { Text, View } from 'react-native';
+import { Text, View, TouchableOpacity } from 'react-native';
 
 /* styles import */
 import styles from '../style.module';
@@ -8,16 +8,21 @@ import styles from '../style.module';
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 
 
-export default function BottomNavigationItem({ label, icon }) {
+export default function BottomNavigationItem({ navigation, route, label, icon }) {
 
     return (
         <View style={styles.bottomNavigationItem}>
-            
-            <View style={styles.bottomNavigationItemIcon}>
-                <MaterialCommunityIcons name={icon} size={24} color='#333' />
-            </View>
 
-            <Text style={styles.bottomNavigationItemLabel}>{label}</Text>
+            <TouchableOpacity onPress={() => navigation.navigate(route)}>
+
+                <View style={styles.bottomNavigationItemIcon}>
+                    <MaterialCommunityIcons name={icon} size={24} color='#333' />
+                </View>
+
+                <Text style={styles.bottomNavigationItemLabel}>{label}</Text>
+
+            </TouchableOpacity>
+
         </View>
     )
 }
