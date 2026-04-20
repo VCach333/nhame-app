@@ -6,29 +6,37 @@ import styles from './style.module';
 
 /* icon import */
 
+/* component import */
+import BottomNavigationItem from './BottomNavigation'
+
 export default function BottomNavigation() {
 
     return (
         <View style={styles.bottomNavigation}>
 
-            <View style={styles.bottomNavigationItem}>
-                <Text>ico</Text>
-            </View>
+            <BottomNavigationItem
+                style={styles.bottomNavigationItem}
+                label='ico'
+                icon='padding'
+            />
 
-            <View style={styles.bottomNavigationItem}>
-                <Text>ico</Text>
-                
-            </View>
+            <BottomNavigationItem
+                style={styles.bottomNavigationItem}
+                label='ico'
+                icon='padding'
+            />
 
-            <View style={styles.bottomNavigationItem}>
-                <Text>ico</Text>
-                
-            </View>
+            <BottomNavigationItem
+                style={styles.bottomNavigationItem}
+                label='ico'
+                icon='padding'
+            />
 
-            <View style={styles.bottomNavigationItem}>
-                <Text>ico</Text>
-                
-            </View>
+            <BottomNavigationItem
+                style={styles.bottomNavigationItem}
+                label='ico'
+                icon='padding'
+            />
 
         </View>
     )
