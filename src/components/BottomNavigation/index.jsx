@@ -7,7 +7,7 @@ import styles from './style.module';
 /* icon import */
 
 /* component import */
-import BottomNavigationItem from './BottomNavigation'
+import BottomNavigationItem from './BottomNavigationItem'
 
 export default function BottomNavigation() {
 
@@ -16,26 +16,20 @@ export default function BottomNavigation() {
 
             <BottomNavigationItem
                 style={styles.bottomNavigationItem}
-                label='ico'
-                icon='padding'
+                label='Início'
+                icon='home-variant-outline'
             />
 
             <BottomNavigationItem
                 style={styles.bottomNavigationItem}
-                label='ico'
-                icon='padding'
+                label='Pratos'
+                icon='rice'
             />
 
             <BottomNavigationItem
                 style={styles.bottomNavigationItem}
-                label='ico'
-                icon='padding'
-            />
-
-            <BottomNavigationItem
-                style={styles.bottomNavigationItem}
-                label='ico'
-                icon='padding'
+                label='Ajustes'
+                icon='cog-outline'
             />
 
         </View>
