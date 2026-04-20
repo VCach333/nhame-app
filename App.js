@@ -7,34 +7,15 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 /* styles import */
 import styles from './App.module'
 
+/* pages import */
+import InicioPage from './src/pages/InicioPage'
+import PratosPage from './src/pages/PratosPage'
+import AjustesPage from './src/pages/AjustesPage'
+
 /* components import */
 import BottomNavigation from './src/components/BottomNavigation'
 
 const Stack = createNativeStackNavigator()
-
-function InicioScreen() {
-  return (
-    <View>
-      <Text>Inicio</Text>
-    </View>
-  )
-}
-
-function PratoScreen() {
-  return (
-    <View>
-      <Text>Prato</Text>
-    </View>
-  )
-}
-
-function AjustesScreen() {
-  return (
-    <View>
-      <Text>Ajustes</Text>
-    </View>
-  )
-}
 
 export default function App() {
   return (
@@ -47,9 +28,9 @@ export default function App() {
         <View style={styles.appMain}>
           <Stack.Navigator screenOptions={{ headerShown: false }}>
 
-            <Stack.Screen name='inicio' component={InicioScreen} />
-            <Stack.Screen name='pratos' component={PratoScreen} />
-            <Stack.Screen name='config' component={AjustesScreen} />
+            <Stack.Screen name='inicio' component={InicioPage} />
+            <Stack.Screen name='pratos' component={PratosPage} />
+            <Stack.Screen name='config' component={AjustesPage} />
 
           </Stack.Navigator>
         </View>
