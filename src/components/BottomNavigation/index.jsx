@@ -5,8 +5,6 @@ import { useNavigation } from '@react-navigation/native'
 /* styles import */
 import styles from './style.module';
 
-/* icon import */
-
 /* component import */
 import BottomNavigationItem from './BottomNavigationItem'
 

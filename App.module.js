@@ -5,10 +5,6 @@ const styles = StyleSheet.create({
     height: '100%',
     justifyContent: 'space-between'
   },
-  appHeader: {
-    backgroundColor: 'teal',
-    height: 100,
-  },
   appMain: {
     backgroundColor: 'tomato',
     height: 100,

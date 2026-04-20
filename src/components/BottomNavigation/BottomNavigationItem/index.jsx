@@ -7,7 +7,6 @@ import styles from '../style.module';
 /* icon import */
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 
-
 export default function BottomNavigationItem({ navigation, route, label, icon }) {
 
     return (

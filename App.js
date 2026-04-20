@@ -14,6 +14,7 @@ import AjustesPage from './src/pages/AjustesPage'
 
 /* components import */
 import BottomNavigation from './src/components/BottomNavigation'
+import Header from './src/components/Header'
 
 const Stack = createNativeStackNavigator()
 
@@ -23,9 +24,10 @@ export default function App() {
 
       <View style={styles.appContainer}>
 
-        <View style={styles.appHeader}></View>
-
         <View style={styles.appMain}>
+
+          <Header />
+
           <Stack.Navigator screenOptions={{ headerShown: false }}>
 
             <Stack.Screen name='inicio' component={InicioPage} />
@@ -37,10 +39,10 @@ export default function App() {
 
         <BottomNavigation style={styles.appBottomNavigation} />
 
-        <StatusBar style="auto" />
+        <StatusBar style="auto" backgroundColor='#ffff00' />
 
       </View>
-      
+
     </NavigationContainer>
   );
 }
