@@ -1,42 +1,42 @@
 # Classes UML
 
 ```bash
-Prato {
-    PratoPrincipal {
-        Tempero
-        Igrediente
+Dish {
+    MainDish {
+        Spice
+        Ingredient
     }
-    Acompanhante {
-        Tempero
-        Igrediente
+    SideDish {
+        Spice
+        Ingredient
     }
-    Molho {
-        Tempero
-        Igrediente
+    Sauce {
+        Spice
+        Ingredient
     }
 }
 ```
 
 
-## Prato
-*ex.: Arroz com Feijão e Frango Frito*
+## Dish
+*eg.: Arroz com Feijão e Frango Frito*
 
 
-### Prato Principal
-*ex.: Arroz*
+### Main Dish
+*eg.: Arroz*
 
 
-## Acompanhante
-*ex.: Frango Frito*
+## Side Dish
+*eg.: Frango Frito*
 
 
-## Molho
-*ex.: Feijão?*
+## Sauce
+*eg.: Feijão?*
 
 
-## Tempero
-*ex.: Gengibre, Alho, etc*
+## Spice
+*eg.: Gengibre, Alho, etc*
 
 
-## Igrediente
-*ex.: Tomate, Pimento, etc*
+## Ingredient
+*eg.: Tomate, Pimento, etc*

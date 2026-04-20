@@ -1,8 +1,8 @@
 {
-    "usuarios": [],
-    "pratos": [],
-    "acompanhantes": [],
-    "molho": [],
-    "tempero": [],
-    "igrediente": []
+    "users": [],
+    "dishses": [],
+    "sideDishes": [],
+    "sauces": [],
+    "spices": [],
+    "ingredients": []
 }
