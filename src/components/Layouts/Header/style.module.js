@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
   appHeader: {
     backgroundColor: '#6d64ff',
-    height: 120,
+    height: 168,
     paddingHorizontal: 12,
     flexDirection: 'row',
     alignItems: 'center',

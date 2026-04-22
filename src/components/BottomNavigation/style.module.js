@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
+    
     bottomNavigation: {
         width: 240,
         height: 72,
