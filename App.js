@@ -36,7 +36,7 @@ export default function App() {
 
         <BottomNavigation style={styles.appBottomNavigation} />
 
-        <StatusBar style="dark" backgroundColor='#6d64ff' />
+        <StatusBar style="light" backgroundColor='#6d64ff' />
 
       </View>
 

@@ -4,6 +4,7 @@ import { View, Text } from 'react-native'
 /* style import */
 import styles from './style.module'
 import { MaterialCommunityIcons } from '@expo/vector-icons'
+import SideNavigationItem from './SideNavigationItem'
 
 export default function SideNavigation() {
 
@@ -11,13 +12,11 @@ export default function SideNavigation() {
 
         <View style={styles.sideNavigationContent}>
 
-            <View style={styles.sideNavigationContentItem}>
-                <View style={styles.iconMask}>
-                    <MaterialCommunityIcons name='rice' size={24} color='#fff' />
-                </View>
-
-                <Text style={styles.iconDesc}>desc</Text>
-            </View>
+            <SideNavigationItem label='princial' img={require('../../../assets/icons/main-dish.png')} />
+            <SideNavigationItem label='acomp.' img={require('../../../assets/icons/side-dish.png')} />
+            <SideNavigationItem label='molho' img={require('../../../assets/icons/sauce.png')} />
+            <SideNavigationItem label='ingred.' img={require('../../../assets/icons/tomato.png')} />
+            <SideNavigationItem label='temp.' img={require('../../../assets/icons/spice-alt.png')} />
 
         </View>
     )
