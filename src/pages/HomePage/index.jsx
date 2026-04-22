@@ -12,7 +12,7 @@ import Header from '../../components/Header'
 export default function HomePage() {
   return (
     <>
-      <Header />
+      <Header pageTitle='Início' />
 
       <View style={pageStyles.pageContainer}></View>
     </>

@@ -1,8 +1,8 @@
 /* hooks & utils import */
-import { Text, View, TouchableOpacity } from 'react-native';
+import { Text, View, TouchableOpacity } from 'react-native'
 
 /* styles import */
-import styles from '../style.module';
+import styles from '../style.module'
 
 /* icon import */
 import { MaterialCommunityIcons } from '@expo/vector-icons'

@@ -1,9 +1,9 @@
 /* hooks & utils import */
-import { View } from 'react-native';
+import { View } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 
 /* styles import */
-import styles from './style.module';
+import styles from './style.module'
 
 /* component import */
 import BottomNavigationItem from './BottomNavigationItem'

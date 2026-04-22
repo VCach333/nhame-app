@@ -12,7 +12,7 @@ import CardContent from '../../components/Layouts/CardContent'
 export default function DishPage() {
   return (
     <>
-      <Header />
+      <Header pageTitle='Pratos' />
 
       <View style={pageStyles.pageContainer}>
 

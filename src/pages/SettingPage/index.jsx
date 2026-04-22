@@ -8,7 +8,7 @@ import { View, Text } from 'react-native'
 export default function SettingPage() {
   return (
     <>
-      {/* <Header /> */}
+      {/* <Header pageTitle='Ajustes' /> */}
 
       <View>
         <Text>Ajustes</Text>
