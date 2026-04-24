@@ -16,27 +16,24 @@ export default function BottomNavigation() {
         <View style={styles.bottomNavigation}>
 
             <BottomNavigationItem
-                style={styles.bottomNavigationItem}
                 navigation={navigation}
                 route='inicio'
                 label='Início'
-                icon='home-variant-outline'
+                img={require('../../../assets/icons/home.png')}
                 />
 
             <BottomNavigationItem
-                style={styles.bottomNavigationItem}
                 navigation={navigation}
                 route='pratos'
                 label='Pratos'
-                icon='rice'
+                img={require('../../../assets/icons/home.png')}
                 />
 
             <BottomNavigationItem
-                style={styles.bottomNavigationItem}
                 navigation={navigation}
                 route='config'
                 label='Ajustes'
-                icon='cog-outline'
+                img={require('../../../assets/icons/home.png')}
             />
 
         </View>

@@ -16,18 +16,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between'
     },
-    bottomNavigationItem: {
-        alignItems: 'center'
-    },
-    bottomNavigationItemIcon: {
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    bottomNavigationItemLabel: {
-        fontSize: 10,
-        fontWeight: 500,
-        color: '#fff'
-    }
 })
 
 export default styles

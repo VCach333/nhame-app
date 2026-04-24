@@ -12,11 +12,11 @@ export default function SideNavigation() {
 
         <View style={styles.sideNavigationContent}>
 
-            <SideNavigationItem label='princial' img={require('../../../assets/icons/main-dish.png')} />
-            <SideNavigationItem label='acomp.' img={require('../../../assets/icons/side-dish.png')} />
-            <SideNavigationItem label='molho' img={require('../../../assets/icons/sauce.png')} />
-            <SideNavigationItem label='ingred.' img={require('../../../assets/icons/tomato.png')} />
-            <SideNavigationItem label='temp.' img={require('../../../assets/icons/spice-alt.png')} />
+            <SideNavigationItem label='principal' img={require('../../../assets/icons/main-dish-color-alt.png')} />
+            <SideNavigationItem label='acomp.' img={require('../../../assets/icons/side-dish-color.png')} />
+            <SideNavigationItem label='molho' img={require('../../../assets/icons/sauce-color.png')} />
+            <SideNavigationItem label='ingred.' img={require('../../../assets/icons/ingredient-color.png')} />
+            <SideNavigationItem label='temp.' img={require('../../../assets/icons/spice-color.png')} />
 
         </View>
     )
