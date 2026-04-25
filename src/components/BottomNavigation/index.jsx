@@ -26,14 +26,14 @@ export default function BottomNavigation() {
                 navigation={navigation}
                 route='pratos'
                 label='Pratos'
-                img={require('../../../assets/icons/home.png')}
+                img={require('../../../assets/icons/dishes.png')}
                 />
 
             <BottomNavigationItem
                 navigation={navigation}
                 route='config'
                 label='Ajustes'
-                img={require('../../../assets/icons/home.png')}
+                img={require('../../../assets/icons/setting.png')}
             />
 
         </View>
