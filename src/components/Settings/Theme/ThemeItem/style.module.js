@@ -12,7 +12,8 @@ const styles = StyleSheet.create({
     },
     themeText: {
         fontSize: 12,
-        fontWeight: 500
+        fontWeight: 500,
+        color: '#777'
     },
 })
 

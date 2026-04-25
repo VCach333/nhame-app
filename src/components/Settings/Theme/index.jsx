@@ -11,23 +11,29 @@ export default function SettingTheme() {
 
     return (
 
-        <View style={styles.themeContent}>
+        <>
+            <View style={styles.themeHeader}>
+                <Text style={styles.themeHeaderText}>Tema</Text>
+            </View>
 
-            <ThemeItem
-                img={require('../../../../assets/icons/setting.png')}
-                label='Sistema'
-            />
+            <View style={styles.themeContent}>
 
-            <ThemeItem
-                img={require('../../../../assets/icons/setting.png')}
-                label='Claro'
-            />
+                <ThemeItem
+                    img={require('../../../../assets/icons/theme-sistem.png')}
+                    label='Sistema'
+                />
 
-            <ThemeItem
-                img={require('../../../../assets/icons/setting.png')}
-                label='Escuro'
-            />
+                <ThemeItem
+                    img={require('../../../../assets/icons/theme-light.png')}
+                    label='Claro'
+                />
 
-        </View>
+                <ThemeItem
+                    img={require('../../../../assets/icons/theme-dark.png')}
+                    label='Escuro'
+                />
+
+            </View>
+        </>
     )
 }
