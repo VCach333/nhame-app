@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#e9e8faff',
         boxShadow: '0 6px 12px #6d64ff7a',
         position: 'absolute',
-        top: 174,
+        top: 198,
         right: 6,
         borderRadius: 50,
         alignItems: 'center',

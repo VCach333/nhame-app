@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
   appHeader: {
     backgroundColor: '#6d64ff',
-    height: 168,
+    height: 124,
     paddingHorizontal: 12,
     flexDirection: 'row',
     alignItems: 'center',
@@ -31,12 +31,27 @@ const styles = StyleSheet.create({
     gap: 6
   },
   iconMask: {
-    width: 24,
-    height: 24,
+    width: 30,
+    height: 30,
     backgroundColor: '#6d64ff',
     borderRadius: 50,
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  icon: {
+    width: 18,
+    height: 18,
+    filter: 'invert(1)'
+  },
+  btnSave: {
+    backgroundColor: '#33d49e',
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 24
+  },
+  btnSaveText: {
+    color: '#333333ab',
+    fontWeight: 500
   }
 })
 
