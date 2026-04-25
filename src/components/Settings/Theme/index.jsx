@@ -4,35 +4,29 @@ import { View, Text, Image } from 'react-native'
 /* style import */
 import styles from './style.module'
 
+/* component import */
+import ThemeItem from './ThemeItem'
+
 export default function SettingTheme() {
 
     return (
 
         <View style={styles.themeContent}>
 
-            <View style={styles.themeContentItem}>
-                <Image
-                    source={require('../../../assets/icons/setting.png')}
-                    style={styles.themeIcon}
-                />
-                <Text style={styles.themeText}>Sistema</Text>
-            </View>
+            <ThemeItem
+                img={require('../../../../assets/icons/setting.png')}
+                label='Sistema'
+            />
 
-            <View style={styles.themeContentItem}>
-                <Image
-                    source={require('../../../assets/icons/setting.png')}
-                    style={styles.themeIcon}
-                />
-                <Text style={styles.themeText}>Claro</Text>
-            </View>
+            <ThemeItem
+                img={require('../../../../assets/icons/setting.png')}
+                label='Claro'
+            />
 
-            <View style={styles.themeContentItem}>
-                <Image
-                    source={require('../../../assets/icons/setting.png')}
-                    style={styles.themeIcon}
-                />
-                <Text style={styles.themeText}>Escuro</Text>
-            </View>
+            <ThemeItem
+                img={require('../../../../assets/icons/setting.png')}
+                label='Escuro'
+            />
 
         </View>
     )

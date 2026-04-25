@@ -12,20 +12,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 18,
         paddingVertical: 24,
     },
-    themeContentItem: {
-        gap: 6,
-        alignItems: 'center',
-        /*borderLeftWidth: 1,
-        borderLeftColor: '#777'*/
-    },
-    themeIcon: {
-        width: 24,
-        height: 24
-    },
-    themeText: {
-        fontSize: 12,
-        fontWeight: 500
-    },
 })
 
 export default styles
