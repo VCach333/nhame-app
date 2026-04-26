@@ -11,6 +11,7 @@ import styles from './App.module'
 import HomePage from './src/pages/HomePage'
 import DishPage from './src/pages/DishPage'
 import SettingPage from './src/pages/SettingPage'
+import ProfilePage from './src/pages/ProfilePage'
 
 /* components import */
 import BottomNavigation from './src/components/BottomNavigation'
@@ -30,6 +31,7 @@ export default function App() {
             <Stack.Screen name='inicio' component={HomePage} />
             <Stack.Screen name='pratos' component={DishPage} />
             <Stack.Screen name='config' component={SettingPage} />
+            <Stack.Screen name='profile' component={ProfilePage} />
 
           </Stack.Navigator>
         </View>

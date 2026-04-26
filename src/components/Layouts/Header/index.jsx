@@ -1,19 +1,19 @@
 /* hooks & utils import */
 import { View, Text, TouchableOpacity, Image } from 'react-native'
+import { useNavigation } from '@react-navigation/native'
 
 /* styles import */
 import styles from './style.module'
 
-/* icon import */
-//import { MaterialCommunityIcons } from '@expo/vector-icons'
-
 export default function Header({ pageTitle }) {
+
+    const navigation = useNavigation()
 
     return (
         <View style={styles.appHeader}>
 
             <View>
-                <Text style={styles.pageTitle}>{pageTitle}</Text>
+                <Text style={styles.pageTitle}>{pageTitle ? pageTitle : 'Perfil'}</Text>
             </View>
 
             {pageTitle == 'Ajustes'
@@ -22,17 +22,19 @@ export default function Header({ pageTitle }) {
                     <Text style={styles.btnSaveText}>Salvar</Text>
                 </TouchableOpacity>
                 :
-                <View style={styles.userNameMask}>
+                <TouchableOpacity
+                    style={styles.userNameMask}
+                    onPress={() => {navigation.navigate('profile')}}
+                >
                     <Text style={styles.userName}>Anair Maria</Text>
 
                     <View style={styles.iconMask}>
-                        {/* <MaterialCommunityIcons name='account-outline' size={18} color='#fff' /> */}
                         <Image
                             style={styles.icon}
                             source={require('../../../../assets/icons/user.png')}
                         />
                     </View>
-                </View>
+                </TouchableOpacity>
             }
 
         </View>
