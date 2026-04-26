@@ -33,15 +33,15 @@ const styles = StyleSheet.create({
   iconMask: {
     width: 30,
     height: 30,
-    backgroundColor: '#6d64ff',
     borderRadius: 50,
+    overflow: 'hidden',
+    backgroundColor: '#6d64ff',
     alignItems: 'center',
     justifyContent: 'center'
   },
   icon: {
-    width: 18,
-    height: 18,
-    filter: 'invert(1)'
+    width: 30,
+    height: 30,
   },
   btnSave: {
     backgroundColor: '#33d49e',

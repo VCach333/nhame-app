@@ -31,7 +31,7 @@ export default function Header({ pageTitle }) {
                     <View style={styles.iconMask}>
                         <Image
                             style={styles.icon}
-                            source={require('../../../../assets/icons/user.png')}
+                            source={require('../../../../assets/img/users/ney.png')}
                         />
                     </View>
                 </TouchableOpacity>
