@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
-  
+
     profileContent: {
         paddingHorizontal: 30,
         paddingVertical: 36
@@ -42,6 +42,40 @@ const styles = StyleSheet.create({
         height: 18,
         filter: 'invert(1)',
         opacity: .4
+    },
+    profileHealth: {
+        marginTop: 48
+    },
+    profileHealthIMC: {
+    },
+    profileHealthIMCHeader: {},
+    profileHealthIMCContent: {
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    profileHealthIMCHeight: {
+
+    },
+    profileHealthIMCHeightBtn: {
+        backgroundColor: '#333',
+        padding: 6,
+        alignItems: 'center'
+    },
+    profileHealthIMCHeightIcons: {
+        width: 18,
+        height: 18
+    },
+    profileHealthIMCWeight: {
+
+    },
+    profileHealthIMCWeightBtn: {
+        backgroundColor: '#333',
+        padding: 6,
+        alignItems: 'center'
+    },
+    profileHealthIMCWeightIcons: {
+        width: 18,
+        height: 18
     }
 })
 

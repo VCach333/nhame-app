@@ -1,11 +1,14 @@
 /* hook & utils import */
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, TouchableOpacity, TextInput } from 'react-native'
 
 /* style import */
 import styles from './style.module'
 
 /* component import */
 import Header from '../../components/Layouts/Header'
+
+/* icon import */
+//import MaterialCommunityIcons from '@expo/vector-icons'
 
 export default function ProfilePage() {
 
@@ -32,6 +35,59 @@ export default function ProfilePage() {
                     </View>
 
                     <Text style={styles.profileUserName}>Anair Baptista</Text>
+
+                </View>
+
+                <View style={styles.profileHealth}>
+
+                    <View style={styles.profileHealthIMC}>
+
+                        <View style={styles.profileHealthIMCHeader}>
+                            <Text>IMC</Text>
+                        </View>
+
+                        <View style={styles.profileHealthIMCContent}>
+
+
+                            <View style={styles.profileHealthIMCHeight}>
+                                <TouchableOpacity style={styles.profileHealthIMCHeightBtn}>
+                                    <Image
+                                        source={require('../../../assets/icons/home.png')}
+                                        style={styles.profileHealthIMCHeightIcons}
+                                    />
+                                </TouchableOpacity>
+
+                                <TextInput placeholder="Seu Peso" />
+
+                                <TouchableOpacity style={styles.profileHealthIMCHeightBtn}>
+                                    <Image
+                                        source={require('../../../assets/icons/home.png')}
+                                        style={styles.profileHealthIMCHeightIcons}
+                                    />
+                                </TouchableOpacity>
+                            </View>
+
+                            <View style={styles.profileHealthIMCWeight}>
+                                <TouchableOpacity style={styles.profileHealthIMCWeightBtn}>
+                                    <Image
+                                        source={require('../../../assets/icons/home.png')}
+                                        style={styles.profileHealthIMCWeightIcons}
+                                    />
+                                </TouchableOpacity>
+
+                                <TextInput placeholder="Sua Altura" />
+
+                                <TouchableOpacity style={styles.profileHealthIMCWeightBtn}>
+                                    <Image
+                                        source={require('../../../assets/icons/home.png')}
+                                        style={styles.profileHealthIMCWeightIcons}
+                                    />
+                                </TouchableOpacity>
+                            </View>
+
+                        </View>
+
+                    </View>
 
                 </View>
 
