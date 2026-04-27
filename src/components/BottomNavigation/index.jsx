@@ -26,7 +26,7 @@ export default function BottomNavigation() {
                 navigation={navigation}
                 route='pratos'
                 label='Pratos'
-                img={require('../../../assets/icons/dishes.png')}
+                img={require('../../../assets/icons/dishes-solid.png')}
                 />
 
             <BottomNavigationItem

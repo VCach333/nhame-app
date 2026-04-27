@@ -24,12 +24,12 @@ export default function SettingTheme() {
                 />
 
                 <ThemeItem
-                    img={require('../../../../assets/icons/theme-light.png')}
+                    img={require('../../../../assets/icons/theme-light-square.png')}
                     label='Claro'
                 />
 
                 <ThemeItem
-                    img={require('../../../../assets/icons/theme-dark.png')}
+                    img={require('../../../../assets/icons/theme-dark-square.png')}
                     label='Escuro'
                 />
 

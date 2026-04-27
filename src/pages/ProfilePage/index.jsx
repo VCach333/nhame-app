@@ -23,10 +23,12 @@ export default function ProfilePage() {
                             source={require('../../../assets/img/users/ney.png')}
                             style={styles.profileUserImg}
                         />
-                        {/* <Image
-                            source={require('../../../assets/img/users/ney.png')}
-                            style={styles.profileUserImgIconEdit}
-                        /> */}
+                        <View style={styles.profileUserImgIconEditContent}>
+                            <Image
+                                source={require('../../../assets/icons/edit.png')}
+                                style={styles.profileUserImgIconEdit}
+                            />
+                        </View>
                     </View>
 
                     <Text style={styles.profileUserName}>Anair Baptista</Text>

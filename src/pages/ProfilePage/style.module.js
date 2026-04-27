@@ -29,6 +29,19 @@ const styles = StyleSheet.create({
         fontSize: 36,
         fontWeight: 500,
         color: '#6d64ff'
+    },
+    profileUserImgIconEditContent: {
+        position: 'absolute',
+        bottom: 3,
+        backgroundColor: '#f8f8f83f',
+        padding: 6,
+        borderRadius: 50
+    },
+    profileUserImgIconEdit: {
+        width: 18,
+        height: 18,
+        filter: 'invert(1)',
+        opacity: .4
     }
 })
 
