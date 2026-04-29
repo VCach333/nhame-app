@@ -47,36 +47,75 @@ const styles = StyleSheet.create({
         marginTop: 48
     },
     profileHealthIMC: {
+        gap: 24,
+        backgroundColor: '#ddd',
+        paddingHorizontal: 12,
+        paddingVertical: 24
     },
-    profileHealthIMCHeader: {},
+    profileHealthIMCHeader: {
+        alignItems: 'center'
+    },
+    profileHealthIMCHeaderText: {
+        fontSize: 18,
+        fontWeight: 700,
+        color: '#777'
+    },
     profileHealthIMCContent: {
         flexDirection: 'row',
         justifyContent: 'space-between'
     },
     profileHealthIMCHeight: {
-
+        alignItems: 'center',
+        gap: 12,
     },
     profileHealthIMCHeightBtn: {
-        backgroundColor: '#333',
-        padding: 6,
-        alignItems: 'center'
+        width: 42,
+        height: 42,
+        backgroundColor: '#d8d8d8',
+        borderRadius: 42/2,
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     profileHealthIMCHeightIcons: {
         width: 18,
-        height: 18
+        height: 18,
+        opacity: .5,
+    },
+    profileHealthIMCHeightInput: {
+        fontSize: 18,
+        fontWeight: 500,
+        backgroundColor: '#d8d8d8',
+        textAlign: 'center',
+        width: 120,
+        height: 60,
+        borderRadius: 60/2
     },
     profileHealthIMCWeight: {
-
+        alignItems: 'center',
+        gap: 12,
     },
     profileHealthIMCWeightBtn: {
-        backgroundColor: '#333',
-        padding: 6,
-        alignItems: 'center'
+        width: 42,
+        height: 42,
+        backgroundColor: '#d8d8d8',
+        borderRadius: 42/2,
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     profileHealthIMCWeightIcons: {
         width: 18,
-        height: 18
-    }
+        height: 18,
+        opacity: .5,
+    },
+    profileHealthIMCWeightInput: {
+        fontSize: 18,
+        fontWeight: 500,
+        backgroundColor: '#d8d8d8',
+        textAlign: 'center',
+        width: 120,
+        height: 60,
+        borderRadius: 60/2
+    },
 })
 
 export default styles

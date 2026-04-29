@@ -15,7 +15,7 @@ export default function ProfilePage() {
     return (
 
         <>
-            <Header />
+            <Header pageTitle='Perfil' />
 
             <View style={styles.profileContent}>
 
@@ -43,7 +43,7 @@ export default function ProfilePage() {
                     <View style={styles.profileHealthIMC}>
 
                         <View style={styles.profileHealthIMCHeader}>
-                            <Text>IMC</Text>
+                            <Text style={styles.profileHealthIMCHeaderText}>IMC</Text>
                         </View>
 
                         <View style={styles.profileHealthIMCContent}>
@@ -52,16 +52,19 @@ export default function ProfilePage() {
                             <View style={styles.profileHealthIMCHeight}>
                                 <TouchableOpacity style={styles.profileHealthIMCHeightBtn}>
                                     <Image
-                                        source={require('../../../assets/icons/home.png')}
+                                        source={require('../../../assets/icons/arrow-up.png')}
                                         style={styles.profileHealthIMCHeightIcons}
                                     />
                                 </TouchableOpacity>
 
-                                <TextInput placeholder="Seu Peso" />
+                                <TextInput
+                                    style={styles.profileHealthIMCHeightInput}
+                                    placeholder="Seu Peso"
+                                />
 
                                 <TouchableOpacity style={styles.profileHealthIMCHeightBtn}>
                                     <Image
-                                        source={require('../../../assets/icons/home.png')}
+                                        source={require('../../../assets/icons/arrow-down.png')}
                                         style={styles.profileHealthIMCHeightIcons}
                                     />
                                 </TouchableOpacity>
@@ -70,16 +73,19 @@ export default function ProfilePage() {
                             <View style={styles.profileHealthIMCWeight}>
                                 <TouchableOpacity style={styles.profileHealthIMCWeightBtn}>
                                     <Image
-                                        source={require('../../../assets/icons/home.png')}
+                                        source={require('../../../assets/icons/arrow-up.png')}
                                         style={styles.profileHealthIMCWeightIcons}
                                     />
                                 </TouchableOpacity>
 
-                                <TextInput placeholder="Sua Altura" />
+                                <TextInput
+                                    style={styles.profileHealthIMCWeightInput}
+                                    placeholder="Sua Altura"
+                                />
 
                                 <TouchableOpacity style={styles.profileHealthIMCWeightBtn}>
                                     <Image
-                                        source={require('../../../assets/icons/home.png')}
+                                        source={require('../../../assets/icons/arrow-down.png')}
                                         style={styles.profileHealthIMCWeightIcons}
                                     />
                                 </TouchableOpacity>

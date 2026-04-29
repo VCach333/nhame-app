@@ -13,10 +13,10 @@ export default function Header({ pageTitle }) {
         <View style={styles.appHeader}>
 
             <View>
-                <Text style={styles.pageTitle}>{pageTitle ? pageTitle : 'Perfil'}</Text>
+                <Text style={styles.pageTitle}>{pageTitle}</Text>
             </View>
 
-            {pageTitle == 'Ajustes'
+            {pageTitle == 'Ajustes' || pageTitle == 'Perfil'
                 ?
                 <TouchableOpacity style={styles.btnSave}>
                     <Text style={styles.btnSaveText}>Salvar</Text>
