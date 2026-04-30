@@ -1,5 +1,5 @@
 /* hook & utils import */
-import { View, Text, Image, TouchableOpacity, TextInput } from 'react-native'
+import { View } from 'react-native'
 
 /* style import */
 import styles from './style.module'
@@ -23,7 +23,6 @@ export default function ProfilePage() {
                 <ProfileHealth />
 
             </View>
-
         </>
     )
 }
