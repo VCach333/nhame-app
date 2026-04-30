@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
 
     profileContent: {
         paddingHorizontal: 30,
-        paddingVertical: 36
+        paddingVertical: 36,
     },
     profileUser: {
         alignItems: 'center'
@@ -44,13 +44,15 @@ const styles = StyleSheet.create({
         opacity: .4
     },
     profileHealth: {
-        marginTop: 48
+        marginTop: 48,
     },
     profileHealthIMC: {
         gap: 24,
-        backgroundColor: '#ddd',
+        backgroundColor: '#e9e8faff',
+        boxShadow: '0 8px 16px #6d64ff3a',
         paddingHorizontal: 12,
-        paddingVertical: 24
+        paddingVertical: 24,
+        borderRadius: 12,
     },
     profileHealthIMCHeader: {
         alignItems: 'center'
@@ -58,7 +60,7 @@ const styles = StyleSheet.create({
     profileHealthIMCHeaderText: {
         fontSize: 18,
         fontWeight: 700,
-        color: '#777'
+        color: '#6d64ff'
     },
     profileHealthIMCContent: {
         flexDirection: 'row',
@@ -67,11 +69,14 @@ const styles = StyleSheet.create({
     profileHealthIMCHeight: {
         alignItems: 'center',
         gap: 12,
+        paddingRight: 16,
+        borderRightColor: '#f8f8f8',
+        borderRightWidth: 2,
     },
     profileHealthIMCHeightBtn: {
         width: 42,
         height: 42,
-        backgroundColor: '#d8d8d8',
+        backgroundColor: '#6d64ff',
         borderRadius: 42/2,
         alignItems: 'center',
         justifyContent: 'center',
@@ -79,12 +84,12 @@ const styles = StyleSheet.create({
     profileHealthIMCHeightIcons: {
         width: 18,
         height: 18,
-        opacity: .5,
+        filter: 'invert(1)'
     },
     profileHealthIMCHeightInput: {
         fontSize: 18,
         fontWeight: 500,
-        backgroundColor: '#d8d8d8',
+        backgroundColor: '#f2f2f2',
         textAlign: 'center',
         width: 120,
         height: 60,
@@ -93,11 +98,12 @@ const styles = StyleSheet.create({
     profileHealthIMCWeight: {
         alignItems: 'center',
         gap: 12,
+        paddingLeft: 16
     },
     profileHealthIMCWeightBtn: {
         width: 42,
         height: 42,
-        backgroundColor: '#d8d8d8',
+        backgroundColor: '#6d64ff',
         borderRadius: 42/2,
         alignItems: 'center',
         justifyContent: 'center',
@@ -105,12 +111,12 @@ const styles = StyleSheet.create({
     profileHealthIMCWeightIcons: {
         width: 18,
         height: 18,
-        opacity: .5,
+        filter: 'invert(1)'
     },
     profileHealthIMCWeightInput: {
         fontSize: 18,
         fontWeight: 500,
-        backgroundColor: '#d8d8d8',
+        backgroundColor: '#f2f2f2',
         textAlign: 'center',
         width: 120,
         height: 60,

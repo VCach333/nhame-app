@@ -43,7 +43,7 @@ export default function ProfilePage() {
                     <View style={styles.profileHealthIMC}>
 
                         <View style={styles.profileHealthIMCHeader}>
-                            <Text style={styles.profileHealthIMCHeaderText}>IMC</Text>
+                            <Text style={styles.profileHealthIMCHeaderText}>Índice de Massa Corporal</Text>
                         </View>
 
                         <View style={styles.profileHealthIMCContent}>
