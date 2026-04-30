@@ -19,7 +19,7 @@ export default function ProfilePage() {
 
             <View style={styles.profileContent}>
 
-                <View style={styles.profileUser}>
+                {/* <View style={styles.profileUser}>
 
                     <View style={styles.profileUserImgContent}>
                         <Image
@@ -36,7 +36,7 @@ export default function ProfilePage() {
 
                     <Text style={styles.profileUserName}>Anair Baptista</Text>
 
-                </View>
+                </View> */}
 
                 <View style={styles.profileHealth}>
 
@@ -48,8 +48,10 @@ export default function ProfilePage() {
 
                         <View style={styles.profileHealthIMCContent}>
 
-
                             <View style={styles.profileHealthIMCHeight}>
+
+                                <Text style={styles.profileHealthIMCHeightLabel}>Altura</Text>
+
                                 <TouchableOpacity style={styles.profileHealthIMCHeightBtn}>
                                     <Image
                                         source={require('../../../assets/icons/arrow-up.png')}
@@ -59,7 +61,7 @@ export default function ProfilePage() {
 
                                 <TextInput
                                     style={styles.profileHealthIMCHeightInput}
-                                    placeholder="Seu Peso"
+                                    placeholder="1.75"
                                 />
 
                                 <TouchableOpacity style={styles.profileHealthIMCHeightBtn}>
@@ -71,6 +73,9 @@ export default function ProfilePage() {
                             </View>
 
                             <View style={styles.profileHealthIMCWeight}>
+
+                                <Text style={styles.profileHealthIMCWeightLabel}>Peso</Text>
+
                                 <TouchableOpacity style={styles.profileHealthIMCWeightBtn}>
                                     <Image
                                         source={require('../../../assets/icons/arrow-up.png')}
@@ -80,7 +85,7 @@ export default function ProfilePage() {
 
                                 <TextInput
                                     style={styles.profileHealthIMCWeightInput}
-                                    placeholder="Sua Altura"
+                                    placeholder="65"
                                 />
 
                                 <TouchableOpacity style={styles.profileHealthIMCWeightBtn}>

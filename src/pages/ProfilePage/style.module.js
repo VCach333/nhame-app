@@ -55,12 +55,16 @@ const styles = StyleSheet.create({
         borderRadius: 12,
     },
     profileHealthIMCHeader: {
-        alignItems: 'center'
+        alignItems: 'center',
+        padding: 6,
+        backgroundColor: '#6d64ff',
+        borderRadius: 24,
+        marginTop: -36
     },
     profileHealthIMCHeaderText: {
         fontSize: 18,
         fontWeight: 700,
-        color: '#6d64ff'
+        color: '#fff',
     },
     profileHealthIMCContent: {
         flexDirection: 'row',
@@ -73,10 +77,13 @@ const styles = StyleSheet.create({
         borderRightColor: '#f8f8f8',
         borderRightWidth: 2,
     },
+    profileHealthIMCHeightLabel: {
+        color: '#333',
+    },
     profileHealthIMCHeightBtn: {
         width: 42,
         height: 42,
-        backgroundColor: '#6d64ff',
+        backgroundColor: '#6d64ffc7',
         borderRadius: 42/2,
         alignItems: 'center',
         justifyContent: 'center',
@@ -100,10 +107,13 @@ const styles = StyleSheet.create({
         gap: 12,
         paddingLeft: 16
     },
+    profileHealthIMCWeightLabel: {
+        color: '#333',
+    },
     profileHealthIMCWeightBtn: {
         width: 42,
         height: 42,
-        backgroundColor: '#6d64ff',
+        backgroundColor: '#6d64ffc7',
         borderRadius: 42/2,
         alignItems: 'center',
         justifyContent: 'center',
