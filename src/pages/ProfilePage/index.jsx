@@ -6,9 +6,7 @@ import styles from './style.module'
 
 /* component import */
 import Header from '../../components/Layouts/Header'
-
-/* icon import */
-//import MaterialCommunityIcons from '@expo/vector-icons'
+import ProfileUser from '../../components/Profile/ProfileUser'
 
 export default function ProfilePage() {
 
@@ -19,24 +17,7 @@ export default function ProfilePage() {
 
             <View style={styles.profileContent}>
 
-                {/* <View style={styles.profileUser}>
-
-                    <View style={styles.profileUserImgContent}>
-                        <Image
-                            source={require('../../../assets/img/users/ney.png')}
-                            style={styles.profileUserImg}
-                        />
-                        <View style={styles.profileUserImgIconEditContent}>
-                            <Image
-                                source={require('../../../assets/icons/edit.png')}
-                                style={styles.profileUserImgIconEdit}
-                            />
-                        </View>
-                    </View>
-
-                    <Text style={styles.profileUserName}>Anair Baptista</Text>
-
-                </View> */}
+                <ProfileUser />
 
                 <View style={styles.profileHealth}>
 
