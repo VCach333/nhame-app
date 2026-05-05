@@ -17,7 +17,7 @@ export default function SideNavigation() {
         <View style={styles.sideNavigationContent}>
 
             <TouchableOpacity
-                onPress={() => navigation.navigate('pratos')}
+                onPress={() => navigation.navigate('dishes')}
             >
                 <SideNavigationItem
                     label='principal'

@@ -17,14 +17,14 @@ export default function BottomNavigation() {
 
             <BottomNavigationItem
                 navigation={navigation}
-                route='inicio'
+                route='home'
                 label='Início'
                 img={require('../../../assets/icons/home.png')}
                 />
 
             <BottomNavigationItem
                 navigation={navigation}
-                route='pratos'
+                route='dishes'
                 label='Pratos'
                 img={require('../../../assets/icons/dishes-solid.png')}
                 />

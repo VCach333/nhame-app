@@ -29,8 +29,8 @@ export default function App() {
 
           <Stack.Navigator screenOptions={{ headerShown: false }}>
 
-            <Stack.Screen name='inicio' component={HomePage} />
-            <Stack.Screen name='pratos' component={DishPage} />
+            <Stack.Screen name='home' component={HomePage} />
+            <Stack.Screen name='dishes' component={DishPage} />
             <Stack.Screen name='config' component={SettingPage} />
             <Stack.Screen name='profile' component={ProfilePage} />
             <Stack.Screen name='sideDish' component={SideDishPage} />
