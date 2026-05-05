@@ -1,5 +1,5 @@
 /* hook & utils import */
-import { View } from 'react-native'
+import { View, ScrollView } from 'react-native'
 
 /* style import */
 import styles from './style.module'
@@ -18,9 +18,13 @@ export default function ProfilePage() {
 
             <View style={styles.profileContent}>
 
-                <ProfileUser />
+                <ScrollView showsVerticalScrollIndicator={false}>
 
-                <ProfileHealth />
+                    <ProfileUser />
+
+                    <ProfileHealth />
+
+                </ScrollView>
 
             </View>
         </>

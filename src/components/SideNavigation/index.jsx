@@ -1,19 +1,40 @@
 /* hooks & utils import */
-import { View, Text } from 'react-native'
+import { View, TouchableOpacity } from 'react-native'
+import { useNavigation } from '@react-navigation/native'
 
 /* style import */
 import styles from './style.module'
-import { MaterialCommunityIcons } from '@expo/vector-icons'
+
+/* component import */
 import SideNavigationItem from './SideNavigationItem'
 
 export default function SideNavigation() {
+
+    const navigation = useNavigation()
 
     return (
 
         <View style={styles.sideNavigationContent}>
 
-            <SideNavigationItem label='principal' img={require('../../../assets/icons/main-dish-color-alt.png')} />
-            <SideNavigationItem label='acomp.' img={require('../../../assets/icons/side-dish-color.png')} />
+            <TouchableOpacity
+                onPress={() => navigation.navigate('pratos')}
+            >
+                <SideNavigationItem
+                    label='principal'
+                    img={require('../../../assets/icons/main-dish-color-alt.png')}
+                />
+
+            </TouchableOpacity>
+
+            <TouchableOpacity
+                onPress={() => navigation.navigate('sideDish')}
+            >
+                <SideNavigationItem
+                    label='acomp.'
+                    img={require('../../../assets/icons/side-dish-color.png')}
+                />
+            </TouchableOpacity>
+
             <SideNavigationItem label='molho' img={require('../../../assets/icons/sauce-color.png')} />
             <SideNavigationItem label='ingred.' img={require('../../../assets/icons/ingredient-color.png')} />
             <SideNavigationItem label='temp.' img={require('../../../assets/icons/spice-color.png')} />
